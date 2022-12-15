@@ -23,6 +23,8 @@ const App = () => {
     },
   ]
 
+  
+
   return (
     <div className="categories-container">
       {categories.map(({ title }) => (
