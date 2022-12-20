@@ -2,7 +2,7 @@ import { Fragment, useContext } from "react";
 import { Outlet, Link } from "react-router-dom";
 import { ReactComponent as CapstoneLogo } from "../../assets/crown.svg";
 
-import CardIcon from "../../components/card-icon/cart-icon";
+import CardIcon from "../../components/cart-icon/cart-icon";
 import CartDropdown from "../../components/cart-dropdown/cart-dropdown";
 
 import { UserContext } from "../../contexts/user-context";
